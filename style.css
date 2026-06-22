@@ -482,4 +482,12 @@ body {
   .cta-box {
     padding: 32px 22px;
   }
+
+  .service-card:hover .icon-box {
+    transform: scale(1.1);
+}
+
+.icon-box {
+    transition: .3s ease;
+}
 }
